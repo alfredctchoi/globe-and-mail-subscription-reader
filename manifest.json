@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Globe and Mail Subscription Reader",
+  "description": "Allows readers to by pass the subscription sign up process",
+  "version": "1.0",
+  "browser_action": {},
+  "background": {
+    "scripts": [
+      "popup.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*", 
+        "https://*/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ]
+}
