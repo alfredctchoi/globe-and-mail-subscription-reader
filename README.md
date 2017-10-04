@@ -1,6 +1,6 @@
 # General
 
-This generally works for most of the popups.  It basically takes you to the print page so you can read the article.
+This works for most of the popups.  It doesn't work when there is no licensing model for the article.  The extension works by taking you to a print view of the article which shows all the content.
 
 # How to install
 
