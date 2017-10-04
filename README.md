@@ -4,6 +4,6 @@ This works for most of the popups.  It doesn't work when there is no licensing m
 
 # How to install
 
-1. Download the CRX from the dist folder
+1. Download globe-and-mail-subscription-reader.crx from the [dist](https://github.com/alfredctchoi/globe-and-mail-subscription-reader/tree/master/dist) folder
 2. Go to chrome://extensions/ and drag and drop the downloaded CRX file to the window
 3. When you see the subscription popup, click on the extension button
